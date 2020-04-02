@@ -1,0 +1,10 @@
+extends layout
+block content
+  h1 Журнал
+    p списки учеников:
+    ul.list-group
+      each article in articles
+        li.list-group-item
+          a(href="/book/")=article.title
+    a(href='users') Добавить ученика
+

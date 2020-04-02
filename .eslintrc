@@ -1,0 +1,7 @@
+{
+  "plugins":["node"],
+  "extends":["eslint:recommended","plugin:node/recomended","prettier"],
+  "rules":{
+  "noode/exports-style":["error","module.exports"]
+  }
+}
