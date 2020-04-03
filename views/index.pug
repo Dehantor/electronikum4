@@ -5,6 +5,6 @@ block content
     ul.list-group
       each article in articles
         li.list-group-item
-          a(href="/book/")=article.title
+          a(href="/article/"+article._id)=article.title
     a(href='users') Добавить ученика
 

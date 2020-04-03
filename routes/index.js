@@ -24,13 +24,25 @@ app.get('/', function(req, res, next) {
 });
 
 app.get('/article/:id',function (req,res,next) {
-  //Articles.findById(req.params.id,function (err,article) {
-   /* res.render('article',{
+  Articles.findById(req.params.id,function (err,article) {
+    res.render('article',{
       article:article
-    })*/
-   res.render('book',{
+    })
+   //res.render('book',{
 
    //})
+  })
+})
+
+//edit
+app.get('/article/edit/:id',function (req,res,next) {
+  Articles.findById(req.params.id,function (err,article) {
+    res.render('article_edit',{
+      article:article
+    })
+    //res.render('book',{
+
+    //})
   })
 
 })
