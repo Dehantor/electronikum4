@@ -12,21 +12,25 @@
     "eslint-config-prettier": "6.10.0"
   },
   "dependencies": {
-    "mongoose": "^5.9.5",
-    "path": "^0.12.7",
+    "body-parser": "1.19.0",
     "bootstrap": "^4.4.1",
     "bower": "^1.8.8",
     "bower-jquery": "^2.0.2",
-    "pg": "^7.18.2",
-    "pg-promise": "^10.4.4",
-    "cross-env": "^7.0.2",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.2",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^5.3.0",
     "http-errors": "~1.6.3",
+    "mongoose": "^5.9.5",
     "morgan": "~1.9.1",
-    "pug": "2.0.0-beta11",
-    "body-parser": "1.19.0"
+    "path": "^0.12.7",
+    "pg": "^7.18.2",
+    "pg-promise": "^10.4.4",
+    "pug": "2.0.0-beta11"
   },
   "engines": {
     "node": ">=6.0.0"

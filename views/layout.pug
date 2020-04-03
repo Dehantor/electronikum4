@@ -2,7 +2,8 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet' href='bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet' href='/css/style.css')
   body
     nav.navbar.navbar-expand-md.navbar-dark.bg-dark.fixed-top
       a.navbar-brand(href='/') ЭлектроникУМ
@@ -31,6 +32,12 @@ html
     .container
       br
       br
+      br
+      br
+      != messages ('message',locals)
+      if errors
+          each error,i in errors
+            div(class="alert alert-danger") #{error.msg}
       block content
       br
       hr
@@ -39,3 +46,4 @@ html
 
 script(src='/bower_components/jquery/jquery.js')
 script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+script(src='/js/main.js')
