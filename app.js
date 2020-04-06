@@ -9,7 +9,7 @@ const session = require('express-session');
 const bodyParser = require('body-parser');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+//измененения
 var app = express();
 //session
 app.use(session({
