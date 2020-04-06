@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c446314-ebd7-44a7-8bff-df8edd3188b1" name="Default Changelist" comment="" />
+    <list default="true" id="9c446314-ebd7-44a7-8bff-df8edd3188b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,7 @@
       <workItem from="1585116823273" duration="10534000" />
       <workItem from="1585833970762" duration="1365000" />
       <workItem from="1585835420095" duration="484000" />
-      <workItem from="1585837241239" duration="17493000" />
+      <workItem from="1585837241239" duration="18190000" />
     </task>
     <task id="LOCAL-00001" summary="Добавлено редактирование">
       <created>1585894435872</created>
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585920294172</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлено обновление и удаление записи. Так добавлены сообщения при удалении, добавлении и обновлении">
+      <created>1585920424807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585920424807</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
