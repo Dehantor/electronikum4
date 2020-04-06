@@ -59,16 +59,16 @@ router.delete('/article/:id',function (req,res) {
     }
   })
 })
-
+/*
 router.get('/book', function(req, res, next) {
   res.render('book',{title:"sad"});
 });
-
-router.get('/users', function(req, res, next) {
-  res.render('users',{title:"ок"});
+*/
+router.get('/articleAdd', function(req, res, next) {
+  res.render('articleAdd',{title:"ок"});
 });
 
-router.post('/users', (req, res, )=> {
+router.post('/articleAdd', (req, res, )=> {
   //arr.push(req.body.text)
   req.checkBody('title','Title is not').notEmpty();
   req.checkBody('author','Author is not').notEmpty();
@@ -77,7 +77,7 @@ router.post('/users', (req, res, )=> {
   let errors = req.validationErrors();
   if(errors){
     console.log(errors);
-    res.render('users',{
+    res.render('articleAdd',{
      title:"Article add",
      errors:errors
     })
@@ -113,6 +113,7 @@ router.post('/article/edit/:id', (req, res, )=> {
   });
 
 });
+
 /*
 var pgp = require("pg-promise");
 var db = pgp("postgres://postgres:postgres@localhost:58161/qwe");
