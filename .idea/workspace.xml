@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232a787a-77e3-4c9e-8ffc-36eb3c842ce5" name="vetka" comment="vetka">
-      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/articleAdd.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/register.pug" afterDir="false" />
+    <list default="true" id="232a787a-77e3-4c9e-8ffc-36eb3c842ce5" name="vetka" comment="логин и пароль">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/users.pug" beforeDir="false" />
     </list>
     <list id="9c446314-ebd7-44a7-8bff-df8edd3188b1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585920424807</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="логин и пароль">
+      <created>1586177003101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586177003101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +185,7 @@
     <MESSAGE value="Добавлено редактирование" />
     <MESSAGE value="Добавлено обновление и удаление записи. Так добавлены сообщения при удалении, добавлении и обнавлении" />
     <MESSAGE value="Добавлено обновление и удаление записи. Так добавлены сообщения при удалении, добавлении и обновлении" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено обновление и удаление записи. Так добавлены сообщения при удалении, добавлении и обновлении" />
+    <MESSAGE value="логин и пароль" />
+    <option name="LAST_COMMIT_MESSAGE" value="логин и пароль" />
   </component>
 </project>
